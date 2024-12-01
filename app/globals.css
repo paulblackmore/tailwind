@@ -3,9 +3,11 @@
 @tailwind utilities;
 
 :root {
+  --foreground: #fff;
   --background: #e9e8e8;
 }
 
 body {
+  color: var(--foreground);
   background-color: var(--background);
 }
