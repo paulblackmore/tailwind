@@ -1,13 +1,16 @@
-import Image from "next/image";
+import Banner from "./componenents/Banner";
+import Card from "./componenents/Card";
 
-const Home = () => {
-  return (
-    <section className="w-full h-80 absolute top-0 bg-gradient-to-r from-cyan-500 to-blue-400 flex justify-center items-center">
-      <h1 className="text-4xl font-bold">
-        I'm just messing around with Tailwind CSS...
-      </h1>
-    </section>
-  );
-};
+const Home = () => (
+  <>
+    <Banner />
+    <div className="grid grid-cols-4 gap-4 w-full p-10">
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+    </div>
+  </>
+);
 
 export default Home;
