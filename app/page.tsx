@@ -8,7 +8,7 @@ const Home = () => (
     <CardSection />
     <Subscribe />
     <div className="p-14">
-      <p className="text-slate-700 text-center">
+      <p className="text-center">
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
         ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis
         dis parturient montes, nascetur ridiculus mus. Donec quam felis,
