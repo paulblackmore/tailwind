@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "./Button";
 
 export const Subscribe = () => {
   return (
@@ -18,9 +19,7 @@ export const Subscribe = () => {
             className="w-full h-10 rounded p-4 text-cyan-500"
             placeholder="Enter email and stay up to date..."
           />
-          <button className="bg-slate-500 text-gray-200 py-2 px-4 rounded font-semibold w-40">
-            Subscribe
-          </button>
+          <Button text="Subscribe" />
         </form>
       </div>
     </div>
