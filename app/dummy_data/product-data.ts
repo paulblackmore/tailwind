@@ -1,6 +1,6 @@
-import { CardType } from "../types";
+import { ProductType } from "../types";
 
-export const cardData: CardType[] = [
+export const productData: ProductType[] = [
   {
     id: 1,
     title: "Add astonished principles.",
