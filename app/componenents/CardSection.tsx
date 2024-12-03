@@ -13,7 +13,7 @@ const Card = ({ title, desc, btnText }: CardType) => (
 );
 
 export const CardSection = () => (
-  <div className="grid grid-cols-4 gap-4 w-full p-10">
+  <div className="grid grid-cols-4 gap-8 w-full p-10">
     {cardData.map((card: CardType) => (
       <Card
         key={card.id}
