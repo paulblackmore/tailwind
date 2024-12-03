@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const Header = () => (
+export const Header = () => (
   <header className="w-full h-auto bg-transparent p-6 text-white flex justify-between absolute top-0 z-10">
     <h1 className="font-bold">Tailwind</h1>
     <nav className="flex justify-end">
@@ -27,5 +27,3 @@ const Header = () => (
     </nav>
   </header>
 );
-
-export default Header;

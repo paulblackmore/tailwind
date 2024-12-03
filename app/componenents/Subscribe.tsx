@@ -1,6 +1,6 @@
 import React from "react";
 
-const Subscribe = () => {
+export const Subscribe = () => {
   return (
     <div className="w-full h-96 grid grid-cols-2">
       <section className="bg-slate-100 text-cyan-950 p-14 flex flex-col justify-center gap-10">
@@ -26,5 +26,3 @@ const Subscribe = () => {
     </div>
   );
 };
-
-export default Subscribe;

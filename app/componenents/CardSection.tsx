@@ -13,7 +13,7 @@ const Card = ({ title, desc, btnText }: CardType) => (
   </section>
 );
 
-const CardSection = () => (
+export const CardSection = () => (
   <div className="grid grid-cols-4 gap-4 w-full p-10">
     {cardData.map((card: CardType) => (
       <Card
@@ -25,5 +25,3 @@ const CardSection = () => (
     ))}
   </div>
 );
-
-export default CardSection;
