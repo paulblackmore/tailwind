@@ -11,7 +11,6 @@ const CardSection = () => {
           title={card.title}
           desc={card.desc}
           btnText={card.btnText}
-          id={0}
         />
       ))}
     </div>

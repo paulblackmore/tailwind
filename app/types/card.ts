@@ -1,5 +1,5 @@
 export type CardType = {
-  id: number;
+  id?: number;
   title: string;
   desc: string;
   btnText: string;
